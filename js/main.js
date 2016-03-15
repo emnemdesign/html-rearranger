@@ -14,9 +14,9 @@ $headerOne.html('Above Ground Veggies');
 $body.append($ulOne);
 
 $li.each(function () {
-	if ($(this).hasClass('below')) {
-		$ulTwo.append($(this));
-	} else {
-		$ulOne.append($(this));
-	}
+  if ($(this).hasClass('below')) {
+    $ulTwo.append($(this));
+  } else {
+    $ulOne.append($(this));
+  }
 });
