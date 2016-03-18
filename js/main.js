@@ -7,10 +7,10 @@ var $ul = $('<ul>');
 var $li = $('ul li');
 
 $body.append($headerTwo);
-$headerTwo.html('Below Ground Veggies');
+$headerTwo.html('Below ground veggies');
 $body.append($ulTwo);
 $body.append($headerOne);
-$headerOne.html('Above Ground Veggies');
+$headerOne.html('Above ground veggies');
 $body.append($ulOne);
 
 $li.each(function () {
